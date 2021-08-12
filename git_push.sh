@@ -11,9 +11,9 @@ git commit -m "changes made"
 ## >>chmod 755 * // if required;
 ##git remote add origin https://github.com/elankovanmg/ms-thesis.git
 ##git remote -v
-git push -u origin master
+##git push -u origin master
 
-##git pull --rebase origin main
-##git push origin main
+git pull --rebase origin main
+git push origin main
 
 
