@@ -3,7 +3,7 @@
 The quest to design and develop new functional and structural materials for various technological applications lies at the heart of materials discovery that motivates the researchers and engineers to study more about the properties of material interfaces.
 Most of the engineering materials are polycrystalline in nature, and the interface between the two grains with relative misorientation is called the grain boundary(GB) interface.
 It is a well known fact that structure and properties of these interfaces have a significant influence in the material properties.
-For example, even the presence of a single grain boundary in a single crystalline turbine blade makes it unsuitable to witness the high temperature creep~\citep{Kim2017}.
+For example, even the presence of a single grain boundary in a single crystalline turbine blade makes it unsuitable to witness the high temperature creep [(Kim2017)](Kim2017).
 These interfaces are considered as 2D material defects that significantly influence several important properties such as electrical, magnetic, mechanical and optical properties.
 Engineering these boundary interfaces in order to obtain the desired material property is the subject of the new discipline of Material Science and Engineering called “Grain Boundary Engineering”.
 Grain boundary (GB) features have a critical role in determining and predicting the material behaviour, particularly in semiconducting materials and ceramics~\citep{}.
