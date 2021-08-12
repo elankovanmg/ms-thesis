@@ -11,6 +11,6 @@ git commit -m "New commit"
 ## >>chmod 755 * // if required;
 ##git remote add origin https://github.com/elankovanmg/ms-thesis.git
 ##git remote -v
-git push -u origin master
+git push origin master
 
 
