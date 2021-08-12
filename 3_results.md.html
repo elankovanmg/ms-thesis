@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>3_results.md</title><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    extensions: ["[a11y]/accessibility-menu.js"],
+    'HTML-CSS': {
+      availableFonts: [],
+      webFont: 'TeX',
+      undefinedFamily: "serif",
+      mtextFontInherit: true,
+    },
+    TeX: {
+  "Macros": {},
+  "equationNumbers": {},
+  "extensions": [
+    "AMSmath.js",
+    "AMSsymbols.js",
+    "noErrors.js",
+    "noUndefined.js"
+  ]
+},
+    showMathMenu: true
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
+    <style>body { padding: 0; margin: 0; }
+.markdown-preview-plus-view:not([data-use-github-style]) {
+  padding: 2em;
+  font-size: 1.2em;
+  color: #383a42;
+  background-color: #fafafa;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) span.critic.comment > span {
+  background-color: #fafafa;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) > :first-child {
+  margin-top: 0;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) h1,
+.markdown-preview-plus-view:not([data-use-github-style]) h2,
+.markdown-preview-plus-view:not([data-use-github-style]) h3,
+.markdown-preview-plus-view:not([data-use-github-style]) h4,
+.markdown-preview-plus-view:not([data-use-github-style]) h5,
+.markdown-preview-plus-view:not([data-use-github-style]) h6 {
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #000000;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) h1 {
+  font-size: 2.4em;
+  font-weight: 300;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) h2 {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) h6 {
+  font-size: 1em;
+  font-weight: 600;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) strong {
+  color: #000000;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) del {
+  color: #5e616e;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) a,
+.markdown-preview-plus-view:not([data-use-github-style]) a code {
+  color: #526fff;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) img {
+  max-width: 100%;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) > p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) > ul,
+.markdown-preview-plus-view:not([data-use-github-style]) > ol {
+  margin-bottom: 1.5em;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) blockquote {
+  margin: 1.5em 0;
+  font-size: inherit;
+  color: #5e616e;
+  border-color: #d1d1d2;
+  border-width: 4px;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) hr {
+  margin: 3em 0;
+  border-top: 2px dashed #d1d1d2;
+  background: none;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) table {
+  margin: 1.5em 0;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) th {
+  color: #000000;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) th,
+.markdown-preview-plus-view:not([data-use-github-style]) td {
+  padding: 0.66em 1em;
+  border: 1px solid #d1d1d2;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) pre,
+.markdown-preview-plus-view:not([data-use-github-style]) code {
+  color: #000000;
+  background-color: #eaeaeb;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) pre,
+.markdown-preview-plus-view:not([data-use-github-style]) pre.editor-colors {
+  margin: 1.5em 0;
+  padding: 1em;
+  font-size: 0.92em;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+.markdown-preview-plus-view:not([data-use-github-style]) kbd {
+  color: #000000;
+  border: 1px solid #d1d1d2;
+  border-bottom: 2px solid #c1c1c2;
+  background-color: #eaeaeb;
+}
+
+@include 'style-variables';
+.markdown-preview-plus-view {
+  display: block;
+  overflow-x: hidden;
+}
+.markdown-preview-plus-view .emoji {
+  max-width: 1em !important;
+}
+.markdown-preview-plus-view del {
+  text-decoration: none;
+  position: relative;
+}
+.markdown-preview-plus-view del::after {
+  border-bottom: 1px solid black;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.markdown-preview-plus-view ul.contains-task-list li.task-list-item {
+  position: relative;
+  list-style-type: none;
+}
+.markdown-preview-plus-view ul.contains-task-list li.task-list-item input.task-list-item-checkbox {
+  position: absolute;
+  transform: translateX(-100%);
+  width: 30px;
+}
+.markdown-preview-plus-view span.critic.comment {
+  position: relative;
+}
+.markdown-preview-plus-view span.critic.comment::before {
+  content: '\1f4ac';
+  position: initial;
+}
+.markdown-preview-plus-view span.critic.comment > span {
+  display: none;
+}
+.markdown-preview-plus-view span.critic.comment:hover > span {
+  display: initial;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  max-height: 4em;
+  overflow: auto;
+}
+.markdown-preview-plus-view span.critic.comment:focus > span {
+  display: initial;
+  text-decoration: underline;
+  position: initial;
+  top: auto;
+  left: auto;
+  border: initial;
+  border-radius: initial;
+}
+
+body.markdown-preview-plus-view[data-use-github-style] {
+  overflow: initial !important;
+}
+.markdown-preview-plus-view[data-use-github-style] {
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  line-height: 1.6;
+  word-wrap: break-word;
+  padding: 30px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+.markdown-preview-plus-view[data-use-github-style] > *:first-child {
+  margin-top: 0 !important;
+}
+.markdown-preview-plus-view[data-use-github-style] > *:last-child {
+  margin-bottom: 0 !important;
+}
+.markdown-preview-plus-view[data-use-github-style] a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+.markdown-preview-plus-view[data-use-github-style] .absent {
+  color: #c00;
+}
+.markdown-preview-plus-view[data-use-github-style] .anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+.markdown-preview-plus-view[data-use-github-style] .anchor:focus {
+  outline: none;
+}
+.markdown-preview-plus-view[data-use-github-style] h1,
+.markdown-preview-plus-view[data-use-github-style] h2,
+.markdown-preview-plus-view[data-use-github-style] h3,
+.markdown-preview-plus-view[data-use-github-style] h4,
+.markdown-preview-plus-view[data-use-github-style] h5,
+.markdown-preview-plus-view[data-use-github-style] h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.markdown-preview-plus-view[data-use-github-style] h1 .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h2 .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h3 .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h4 .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h5 .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h6 .octicon-link {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+.markdown-preview-plus-view[data-use-github-style] h1:hover .anchor,
+.markdown-preview-plus-view[data-use-github-style] h2:hover .anchor,
+.markdown-preview-plus-view[data-use-github-style] h3:hover .anchor,
+.markdown-preview-plus-view[data-use-github-style] h4:hover .anchor,
+.markdown-preview-plus-view[data-use-github-style] h5:hover .anchor,
+.markdown-preview-plus-view[data-use-github-style] h6:hover .anchor {
+  padding-left: 8px;
+  margin-left: -30px;
+  text-decoration: none;
+}
+.markdown-preview-plus-view[data-use-github-style] h1:hover .anchor .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h2:hover .anchor .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h3:hover .anchor .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h4:hover .anchor .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h5:hover .anchor .octicon-link,
+.markdown-preview-plus-view[data-use-github-style] h6:hover .anchor .octicon-link {
+  display: inline-block;
+}
+.markdown-preview-plus-view[data-use-github-style] h1 tt,
+.markdown-preview-plus-view[data-use-github-style] h2 tt,
+.markdown-preview-plus-view[data-use-github-style] h3 tt,
+.markdown-preview-plus-view[data-use-github-style] h4 tt,
+.markdown-preview-plus-view[data-use-github-style] h5 tt,
+.markdown-preview-plus-view[data-use-github-style] h6 tt,
+.markdown-preview-plus-view[data-use-github-style] h1 code,
+.markdown-preview-plus-view[data-use-github-style] h2 code,
+.markdown-preview-plus-view[data-use-github-style] h3 code,
+.markdown-preview-plus-view[data-use-github-style] h4 code,
+.markdown-preview-plus-view[data-use-github-style] h5 code,
+.markdown-preview-plus-view[data-use-github-style] h6 code {
+  font-size: inherit;
+}
+.markdown-preview-plus-view[data-use-github-style] h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+.markdown-preview-plus-view[data-use-github-style] h1 .anchor {
+  line-height: 1;
+}
+.markdown-preview-plus-view[data-use-github-style] h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+.markdown-preview-plus-view[data-use-github-style] h2 .anchor {
+  line-height: 1;
+}
+.markdown-preview-plus-view[data-use-github-style] h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+.markdown-preview-plus-view[data-use-github-style] h3 .anchor {
+  line-height: 1.2;
+}
+.markdown-preview-plus-view[data-use-github-style] h4 {
+  font-size: 1.25em;
+}
+.markdown-preview-plus-view[data-use-github-style] h4 .anchor {
+  line-height: 1.2;
+}
+.markdown-preview-plus-view[data-use-github-style] h5 {
+  font-size: 1em;
+}
+.markdown-preview-plus-view[data-use-github-style] h5 .anchor {
+  line-height: 1.1;
+}
+.markdown-preview-plus-view[data-use-github-style] h6 {
+  font-size: 1em;
+  color: #777;
+}
+.markdown-preview-plus-view[data-use-github-style] h6 .anchor {
+  line-height: 1.1;
+}
+.markdown-preview-plus-view[data-use-github-style] p,
+.markdown-preview-plus-view[data-use-github-style] blockquote,
+.markdown-preview-plus-view[data-use-github-style] ul,
+.markdown-preview-plus-view[data-use-github-style] ol,
+.markdown-preview-plus-view[data-use-github-style] dl,
+.markdown-preview-plus-view[data-use-github-style] table,
+.markdown-preview-plus-view[data-use-github-style] pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.markdown-preview-plus-view[data-use-github-style] hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+.markdown-preview-plus-view[data-use-github-style] ul,
+.markdown-preview-plus-view[data-use-github-style] ol {
+  padding-left: 2em;
+}
+.markdown-preview-plus-view[data-use-github-style] ul.no-list,
+.markdown-preview-plus-view[data-use-github-style] ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+.markdown-preview-plus-view[data-use-github-style] ul ul,
+.markdown-preview-plus-view[data-use-github-style] ul ol,
+.markdown-preview-plus-view[data-use-github-style] ol ol,
+.markdown-preview-plus-view[data-use-github-style] ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.markdown-preview-plus-view[data-use-github-style] li > p {
+  margin-top: 16px;
+}
+.markdown-preview-plus-view[data-use-github-style] dl {
+  padding: 0;
+}
+.markdown-preview-plus-view[data-use-github-style] dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+.markdown-preview-plus-view[data-use-github-style] dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+.markdown-preview-plus-view[data-use-github-style] blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+.markdown-preview-plus-view[data-use-github-style] blockquote > :first-child {
+  margin-top: 0;
+}
+.markdown-preview-plus-view[data-use-github-style] blockquote > :last-child {
+  margin-bottom: 0;
+}
+.markdown-preview-plus-view[data-use-github-style] table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+.markdown-preview-plus-view[data-use-github-style] table th {
+  font-weight: bold;
+}
+.markdown-preview-plus-view[data-use-github-style] table th,
+.markdown-preview-plus-view[data-use-github-style] table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+.markdown-preview-plus-view[data-use-github-style] table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.markdown-preview-plus-view[data-use-github-style] table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.markdown-preview-plus-view[data-use-github-style] img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.markdown-preview-plus-view[data-use-github-style] .emoji {
+  max-width: none;
+}
+.markdown-preview-plus-view[data-use-github-style] span.frame {
+  display: block;
+  overflow: hidden;
+}
+.markdown-preview-plus-view[data-use-github-style] span.frame > span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+.markdown-preview-plus-view[data-use-github-style] span.frame span img {
+  display: block;
+  float: left;
+}
+.markdown-preview-plus-view[data-use-github-style] span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: #333;
+}
+.markdown-preview-plus-view[data-use-github-style] span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.markdown-preview-plus-view[data-use-github-style] span.align-center > span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+.markdown-preview-plus-view[data-use-github-style] span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+.markdown-preview-plus-view[data-use-github-style] span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.markdown-preview-plus-view[data-use-github-style] span.align-right > span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+.markdown-preview-plus-view[data-use-github-style] span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+.markdown-preview-plus-view[data-use-github-style] span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+.markdown-preview-plus-view[data-use-github-style] span.float-left span {
+  margin: 13px 0 0;
+}
+.markdown-preview-plus-view[data-use-github-style] span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+.markdown-preview-plus-view[data-use-github-style] span.float-right > span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+.markdown-preview-plus-view[data-use-github-style] code,
+.markdown-preview-plus-view[data-use-github-style] tt {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
+.markdown-preview-plus-view[data-use-github-style] code:before,
+.markdown-preview-plus-view[data-use-github-style] tt:before,
+.markdown-preview-plus-view[data-use-github-style] code:after,
+.markdown-preview-plus-view[data-use-github-style] tt:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+.markdown-preview-plus-view[data-use-github-style] code br,
+.markdown-preview-plus-view[data-use-github-style] tt br {
+  display: none;
+}
+.markdown-preview-plus-view[data-use-github-style] del code {
+  text-decoration: inherit;
+}
+.markdown-preview-plus-view[data-use-github-style] pre > code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+.markdown-preview-plus-view[data-use-github-style] .highlight {
+  margin-bottom: 16px;
+}
+.markdown-preview-plus-view[data-use-github-style] .highlight pre,
+.markdown-preview-plus-view[data-use-github-style] pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+.markdown-preview-plus-view[data-use-github-style] .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+.markdown-preview-plus-view[data-use-github-style] pre {
+  word-wrap: normal;
+}
+.markdown-preview-plus-view[data-use-github-style] pre code,
+.markdown-preview-plus-view[data-use-github-style] pre tt {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+.markdown-preview-plus-view[data-use-github-style] pre code:before,
+.markdown-preview-plus-view[data-use-github-style] pre tt:before,
+.markdown-preview-plus-view[data-use-github-style] pre code:after,
+.markdown-preview-plus-view[data-use-github-style] pre tt:after {
+  content: normal;
+}
+.markdown-preview-plus-view[data-use-github-style] kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+.markdown-preview-plus-view[data-use-github-style] span.critic.comment > span {
+  background-color: #fff;
+}
+.markdown-preview-plus-view[data-use-github-style] a {
+  color: #337ab7;
+}
+.markdown-preview-plus-view[data-use-github-style] pre,
+.markdown-preview-plus-view[data-use-github-style] code {
+  color: inherit;
+}
+.markdown-preview-plus-view[data-use-github-style] pre,
+.markdown-preview-plus-view[data-use-github-style] pre.editor-colors {
+  padding: 0.8em 1em;
+  margin-bottom: 1em;
+  font-size: 0.85em;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+.line-number.bracket-matcher.bracket-matcher {
+  color: #383a42;
+  background-color: #e5e5e6;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors {
+  background-color: #fafafa;
+  color: #383a42;
+}
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(56, 58, 66, 0.05);
+}
+pre.editor-colors .invisible {
+  color: #383a42;
+}
+pre.editor-colors .cursor {
+  border-left: 2px solid #526fff;
+}
+pre.editor-colors .selection .region {
+  background-color: #e5e5e6;
+}
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #526fff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character {
+  color: rgba(56, 58, 66, 0.2);
+}
+pre.editor-colors .indent-guide {
+  color: rgba(56, 58, 66, 0.2);
+}
+pre.editor-colors .wrap-guide {
+  background-color: rgba(56, 58, 66, 0.2);
+}
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 111, 255, 0.2);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #526fff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number {
+  color: #9d9d9f;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #383a42;
+  background-color: #e5e5e6;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #383a42;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(255, 20, 20, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #383a42;
+}
+.syntax--comment {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #a0a1a7;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #c18401;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #50a14f;
+}
+.syntax--keyword {
+  color: #a626a4;
+}
+.syntax--keyword.syntax--control {
+  color: #a626a4;
+}
+.syntax--keyword.syntax--operator {
+  color: #383a42;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #4078f2;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #986801;
+}
+.syntax--storage {
+  color: #a626a4;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #a626a4;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #383a42;
+}
+.syntax--constant {
+  color: #986801;
+}
+.syntax--constant.syntax--variable {
+  color: #986801;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #0184bc;
+}
+.syntax--constant.syntax--numeric {
+  color: #986801;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #0184bc;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #0184bc;
+}
+.syntax--variable {
+  color: #e45649;
+}
+.syntax--variable.syntax--interpolation {
+  color: #ca1243;
+}
+.syntax--variable.syntax--parameter {
+  color: #383a42;
+}
+.syntax--string {
+  color: #50a14f;
+}
+.syntax--string.syntax--regexp {
+  color: #0184bc;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #c18401;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e45649;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #a0a1a7;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #383a42;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #4078f2;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #c18401;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #a626a4;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #ca1243;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #383a42;
+}
+.syntax--support.syntax--class {
+  color: #c18401;
+}
+.syntax--support.syntax--type {
+  color: #0184bc;
+}
+.syntax--support.syntax--function {
+  color: #0184bc;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #4078f2;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #4078f2;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #c18401;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #4078f2;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e45649;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #986801;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #4078f2;
+}
+.syntax--meta.syntax--class {
+  color: #c18401;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #383a42;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #383a42;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e45649;
+}
+.syntax--meta.syntax--link {
+  color: #986801;
+}
+.syntax--meta.syntax--require {
+  color: #4078f2;
+}
+.syntax--meta.syntax--selector {
+  color: #a626a4;
+}
+.syntax--meta.syntax--separator {
+  color: #383a42;
+}
+.syntax--meta.syntax--tag {
+  color: #383a42;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #383a42;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #000000 !important;
+  background-color: #f2a60d !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: white !important;
+  background-color: #ff1414 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #986801;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #a626a4;
+}
+.syntax--markup.syntax--deleted {
+  color: #e45649;
+}
+.syntax--markup.syntax--italic {
+  color: #a626a4;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e45649;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #4078f2;
+}
+.syntax--markup.syntax--link {
+  color: #0184bc;
+}
+.syntax--markup.syntax--inserted {
+  color: #50a14f;
+}
+.syntax--markup.syntax--quote {
+  color: #986801;
+}
+.syntax--markup.syntax--raw {
+  color: #50a14f;
+}
+.syntax--source.syntax--c .syntax--keyword.syntax--operator {
+  color: #a626a4;
+}
+.syntax--source.syntax--cpp .syntax--keyword.syntax--operator {
+  color: #a626a4;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #a626a4;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #696c77;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #383a42;
+}
+.syntax--source.syntax--elixir .syntax--source.syntax--embedded.syntax--source {
+  color: #383a42;
+}
+.syntax--source.syntax--elixir .syntax--constant.syntax--language,
+.syntax--source.syntax--elixir .syntax--constant.syntax--numeric,
+.syntax--source.syntax--elixir .syntax--constant.syntax--definition {
+  color: #4078f2;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--definition,
+.syntax--source.syntax--elixir .syntax--variable.syntax--anonymous {
+  color: #a626a4;
+}
+.syntax--source.syntax--elixir .syntax--parameter.syntax--variable.syntax--function {
+  color: #986801;
+  font-style: italic;
+}
+.syntax--source.syntax--elixir .syntax--quoted {
+  color: #50a14f;
+}
+.syntax--source.syntax--elixir .syntax--keyword.syntax--special-method,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--section,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--source.syntax--empty {
+  color: #e45649;
+}
+.syntax--source.syntax--elixir .syntax--readwrite.syntax--module .syntax--punctuation {
+  color: #e45649;
+}
+.syntax--source.syntax--elixir .syntax--regexp.syntax--section,
+.syntax--source.syntax--elixir .syntax--regexp.syntax--string {
+  color: #ca1243;
+}
+.syntax--source.syntax--elixir .syntax--separator,
+.syntax--source.syntax--elixir .syntax--keyword.syntax--operator {
+  color: #986801;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--constant {
+  color: #c18401;
+}
+.syntax--source.syntax--elixir .syntax--array,
+.syntax--source.syntax--elixir .syntax--scope,
+.syntax--source.syntax--elixir .syntax--section {
+  color: #696c77;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #4078f2;
+}
+.syntax--source.syntax--go .syntax--storage.syntax--type.syntax--string {
+  color: #a626a4;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e45649;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #c18401;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #c18401;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #a626a4;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e45649;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #383a42;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator {
+  color: #0184bc;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--void {
+  color: #a626a4;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e45649;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e45649;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #50a14f;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #0184bc;
+}
+.syntax--source.syntax--ruby .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
+  color: inherit;
+}
+.syntax--source.syntax--php .syntax--class.syntax--bracket {
+  color: #383a42;
+}
+.syntax--source.syntax--python .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
+  color: #a626a4;
+}
+.syntax--source.syntax--python .syntax--variable.syntax--parameter {
+  color: #986801;
+}
+</style>
+
+  </head>
+  <body class="markdown-preview-plus-view">
+    <h3>III. RESULTS</h3>
+<p>We have conducted the simulations on 10 symmetrical tilt GB in Si structures using Stillinger-Weber and optimised Tersoff potential.
+The GB structures have been predicted and defect energy of these interfaces were calculated.
+The Fig. \ref{gbe_plot} shows the GB energy plotted as a function of tilt angle.</p>
+<p>% \vspace*{-12pt}</p>
+<p>\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{./fig/gbe_plot.pdf}
+\caption{Energy of the <span class="math"><script type="math/tex"><001></script></span> STGBs of (a) SW and (b) MOD-TF model as a function of misorientation angle <span class="math"><script type="math/tex">\theta</script></span>}
+\label{gbe_plot}
+\end{figure}</p>
+<p>% \begin{wrapfigure}[11]{l}{0.5\textwidth}
+% %\begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.95\textwidth]{./fig/gbe_plot.pdf}
+% 	\caption{Energy of the <span class="math"><script type="math/tex"><001></script></span> STGBs of (a) SW and (b) MOD-TF model as a function of misorientation angle <span class="math"><script type="math/tex">\theta</script></span>}
+% 	\label{gbe_plot}
+% %\end{figure}
+% \end{wrapfigure}
+% \noindent</p>
+<p>It is observed that the GB energy increases steadily for low angle cases, and is almost constant for GBs with intermediate angles, and then steadily decreases for GBs with high angle cases.
+Both Stilliger-Weber and Tersoff potential shows the similar trends on GB energy curve similar to the one reported in the literature for <span class="math"><script type="math/tex"><001></script></span> STGBs in FCC Cu ~\cite{Zhu2018}.
+One can observe two cusps in the GB energy curve, and it belongs to a spacial category called singular GBs.
+These boundaries are Σ5 (3 1 0) and Σ5 (2 1 0) and it has to lowest energy in the intermediate angle cases.
+The SUs are closely packed 5-atom ring and distance between the rings states increasing as the angle increase subsequently, and shows a strong relation with the GB energy.</p>
+<p>From our studies it is also very clear that the GBs with smaller disorientation angles have the lower GB energy as expected.
+We also found the offset in the GB energy between the two potentials despite having the same atomic environments, this could possibly because of the higher cohesive energy per atom of SW potential.
+Our structures predicted using MOD-TF potential were in pretty good agreement with the recent literature studies by \textit{Hickman and Mishin}.
+But in some GBs, we ended up predicting the different GB structures with higher energies than the one reported ~\cite{Hickman2020}.
+They have calculated the GB energy and structures of 31 STGBs with <span class="math"><script type="math/tex"><001></script></span> axis in Si, their GB energy is shown in the figure above for comparison.</p>
+<p>\vspace{-20pt}</p>
+<p>\subsection{Atomic Structures at GB Interfaces}</p>
+<p>\vspace*{-15pt}</p>
+<p>The atomic structures of all the GBs are quite interesting to study as we could observe repeating pattern of structural units in all the cases in both the SW and MOD-TF potentials.
+In few cases we could observe the same SUs in both the models and in few cases we observe differences in SUs.
+Universally we could observe an 5-atom rings in all of these GB structures when viewed along <span class="math"><script type="math/tex"><0 0 1></script></span> axis.
+In few structures we could see and additional 3-atom rings and even and Kite-like structures similar to the one reported for <span class="math"><script type="math/tex"><001></script></span> STGBs in FCC Cu ~\citep{Zhu2018}.</p>
+<p>\vspace*{-18pt}</p>
+<p>\subsubsection{Low Angle GBs}</p>
+<p>\vspace*{-15pt}</p>
+<p>The structure shown in Fig. \ref{fig:s401} belongs to <span class="math"><script type="math/tex">\Sigma 401(20 \ 1 \ 0)</script></span> GB with the tilt angle of about <span class="math"><script type="math/tex">5.7^o</script></span>.
+Thought we estimate the same GB energy of <span class="math"><script type="math/tex">0.66 \ J m^{-2}</script></span>, there is a difference in SUs observed in both these models; In SW case, one can see a repeating pattern of 3-atom ring and kite-like structures; but this 3 atom ring is absent in structures predicted by TF model.</p>
+<p>% \vspace*{-8pt}</p>
+<p>\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/01_sw.png}
+\caption{SW model}
+\label{fig:s401_sw}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/01_tf.png}
+\caption{MOD-TF model}
+\label{fig:s401_tf}
+\end{subfigure}
+\caption{Structure of <span class="math"><script type="math/tex">\Sigma 401(20 \ 1 \ 0)</script></span> as a representative of Low Angle Grain Boundary}
+\label{fig:s401}
+\end{figure}</p>
+<p>\vspace*{-15pt}</p>
+<p>\subsubsection{Intermediate Angle GBs}</p>
+<p>\vspace*{-10pt}</p>
+<p>We studied 7 GBs for intermediate angle cases, of which only 3 interface structures resembles the same SUs for both the models.
+The Fig. \ref{fig:s5a} is <span class="math"><script type="math/tex">\Sigma 5	   (3 \ 1 \ 0) $ boundary with $36.8^o</script></span> tilt angle. % please refer to this like later; needs correction
+If we have a close observation at SW model and the TF case, we observe a coupled 5-atom rings unlike the densely packed 5-atom rings in TF case.
+Like the example considered in Fig. \ref{fig:s401}, this also has the similar GB energy but different SUs.
+In <span class="math"><script type="math/tex">\Sigma 5	   (3 \ 1 \ 0) $ with $53.1^o</script></span> which has a slightly higher angle than$\Sigma 5	   (3 \ 1 \ 0) $ boundary, predicts the same structural units for both the SW and TF potential models.
+The GB energy of SW is larger as compared to the TF model when same SUs are observed.</p>
+<p>\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/04_sw.png}
+\caption{SW model}
+\label{fig:s5a_sw}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/04_tf.png}
+\caption{MOD-TF model}
+\label{fig:s5a_tf}
+\end{subfigure}
+\caption{Structure of <span class="math"><script type="math/tex">\Sigma 5(3 \ 1 \ 0)[36.8^o]</script></span> as a representative of Intermediate Angle Grain Boundary}
+\label{fig:s5a}
+\end{figure}
+\noindent</p>
+<p>\vspace*{-20pt}</p>
+<p>For <span class="math"><script type="math/tex">\Sigma 13	   (5 \ 1 \ 0) [22.6^o]</script></span>, <span class="math"><script type="math/tex">\Sigma 5 (3 \ 1 \ 0) [36.8^o]</script></span>, <span class="math"><script type="math/tex">\Sigma 17 (5 \ 3 \ 0) [61.9^o]</script></span> and <span class="math"><script type="math/tex">\Sigma 13 (3 \ 2 \ 0) [67.3^o]</script></span> GBs we observe a difference in atomic environments near the boundary.
+All the structures predicted from the MOD-TF potential well agrees with the work of ~\cite{Hickman2020}
+These GBs have more intricate structures than GBs with low and high angles.
+We also observe the spacing between the atomic rings decreases as the tilt angle increases upto <span class="math"><script type="math/tex">\Sigma 5 (3 \ 1 \ 0) [36.8^o]</script></span> and then gets further apart as the angle increases.</p>
+<p>\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/05_sw.png}
+\caption{SW model}
+\label{fig:s5b_sw}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/05_tf.png}
+\caption{MOD-TF model}
+\label{fig:s5b_tf}
+\end{subfigure}
+\caption{Structure of <span class="math"><script type="math/tex">\Sigma 5(2 \ 1 \ 0)[53.13^o]</script></span> as a representative of Intermediate Angle Grain Boundary. The GBs reveals the similar atomic structures, though we have used different interatomic potentials to model them.}
+\label{fig:s5b}
+\end{figure}</p>
+<p>%\newpage</p>
+<p>% \begin{wrapfigure}[10]{r}{0.65\textwidth}
+% 	%\begin{figure}[h]
+% 	\centering
+% 	\vspace*{-0.6cm}
+% 	%\begin{minipage}[h]{0.5\textwidth}
+% 	\includegraphics[width=0.95\textwidth]{./Figures/Fig_11.pdf}
+% 	%\captionsetup{justification=centerfirst}
+% 	\caption{DC Voltammograms over various surface points E, F, G and H at angles (a) 0$^\circ$, (b) 15$^\circ$, © 30$^\circ$ and (d) 150$^\circ$ respectively.}
+% 	\label{fig:11}
+% 	%\end{minipage}
+% \end{wrapfigure}</p>
+<p>\vspace*{-20pt}</p>
+<p>\subsubsection{High Angle GBs}</p>
+<p>\vspace*{-15pt}</p>
+<p>The GB <span class="math"><script type="math/tex">\Sigma 181 (10 \ 9 \ 0)[83.9^o]</script></span> has the 5 atom right in both SW and TF cases with subtle difference in the ring orientation.
+These structures have almost the same GB energy values of <span class="math"><script type="math/tex">0.4 \ J m^{-2}</script></span>.
+For higher misorientation angles, it shows a similar structure with the 5 atom rings with larger separation distance between them.</p>
+<p>\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/10_sw.png}
+\caption{SW model}
+\label{fig:s181_sw}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/10_tf.png}
+\caption{MOD-TF model}
+\label{fig:s181_tf}
+\end{subfigure}
+\caption{Structure of <span class="math"><script type="math/tex">\Sigma 181 (10 \ 9 \ 0)[83.9^o]</script></span> as a representative of Intermediate Angle Grain Boundary. The GBs reveals the similar atomic structures, though we have used different interatomic potentials to model them.}
+\label{fig:s181}
+\end{figure}</p>
+<p>\vspace*{-5pt}</p>
+<p>\noindent</p>
+<p>At intermediate GB structures, the interface consist of repeating five atom ring pairs which are closely arranged.
+The structures in which atomic rings are clearly separated from one another but the distance between them is small are represented by the GBs with intermediate angle.
+However, for high angle case the 5-atom rings have larger separation distance with smaller defect energy, suggesting the stable configuration.
+It’s thought to be because the development of larger rings allows for a lower strain energy, which offsets the energy gain caused by a larger number of atoms with improper coordination.</p>
+<p>\vspace{-20pt}</p>
+<p>\subsection{Comparison of Atomic Structures}</p>
+<p>\vspace*{-12pt}</p>
+<p>From the Fig. \ref{gbe_plot}, it is found that the grain boundary energy increases up to certain tilt angle and is almost remains constant for the angle between <span class="math"><script type="math/tex">50^o</script></span> to <span class="math"><script type="math/tex">70^o</script></span>, while for higher tilt angle from <span class="math"><script type="math/tex">81.5^o</script></span> and <span class="math"><script type="math/tex">83.9^o</script></span> it shows the lowest grain boundary energy indicating its higher stability.
+In an ideal case, we observe a symmetry around <span class="math"><script type="math/tex">45^o</script></span>in a GB energy curve of STGBs with <span class="math"><script type="math/tex"><001></script></span> misorientation axis.
+The two GBs at the cusp indicates that their structures are more stable as compared to all the GBs with intermediate angles.
+Furthermore, our estimated GB structures with angles between <span class="math"><script type="math/tex">81.5°</script></span> and <span class="math"><script type="math/tex">83.9°</script></span>are well ordered and appears to be defect-free.
+Out of the 10 GB samples analyzed, four of these structures predict the exact same structural units.
+They are <span class="math"><script type="math/tex">\Sigma 37(6 \ 1 \ 0)</script></span>, <span class="math"><script type="math/tex">\Sigma 5(2 \ 1 \ 0)</script></span>, <span class="math"><script type="math/tex">\Sigma 53(9 \ 5 \ 0)</script></span>; and <span class="math"><script type="math/tex">\Sigma 85(7 \ 6 \ 0)</script></span>.<br>
+The remaining GBs show different atomic structures at the interface.</p>
+<p>And when the interface structures are similar, GB defect energy by SW models are higher as compared to TF models.
+However both these models show the repeating patterns of structural units.
+Also, similar GB energy doesn’t mean they have similar structural patterns.
+One thing that we observe in common to both these models is, as the tilt angle increases the distance of separation between the atomic rings decreases till the certain angle.
+This is quite intuitive; and hence the GB energy also increases.
+This critical angle is <span class="math"><script type="math/tex">36.8^o</script></span> that corresponds to <span class="math"><script type="math/tex">\Sigma 5(2 \ 1 \ 0)</script></span> boundary, that is the first cusp point shown the GB energy curve (\ref{gbe_plot}).
+The densely packed 5 atom rings starts separating as the angle increases subsequently.
+Among the GBs studied <span class="math"><script type="math/tex">\Sigma 181 (10 \ 9 \ 0)[83.9^o]</script></span> has the lowest GB energy for both the models which indicates that it’s interface structure is more stable than any other boundaries.
+From the GB energy curve it is also evident that GBs with smaller disorientation angles are more stable than intermediate angle GBs;</p>
+<p>\vspace*{-5pt}</p>
+<p>% %%%================   Equation 17   =======================%%%
+% \begin{equation}
+% F_c=\frac{\text{Maximum stress for }\alpha=1}{\text{Maximum stress for }\alpha=0}
+% \end{equation}
+% %%==========================================================%%</p>
+<p>\vspace*{-20pt}</p>
+<p>%%=====================================================================</p>
+<p>\subsection{Thermal Conductivity of Bulk Si}</p>
+<p>\vspace*{-15pt}</p>
+<p>The thermal conductivity of bulk Si in molecular dynamics can be estimated by Green Kubo formalism and non-equilibrium MD simulation method(NEMD) ~\citep{Khadem2013}.
+We applied the NEMD simulation method to a bulk system of <span class="math"><script type="math/tex">4 \times 4 \times 288</script></span> cells before implementing the method to GB bicrystal models.</p>
+<p>\begin{table}[ht]
+\centering
+\caption{Thermal conductivity <span class="math"><script type="math/tex">\kappa</script></span> (in <span class="math"><script type="math/tex">W  \ m^{-1} \ K^{-1}</script></span>) of bulk Si at <span class="math"><script type="math/tex">500 \ K</script></span> computed with SW and MOD-TF potentials. The results were compared with NEMD studies on Si}
+\label{tab:caption-t2}
+\begin{tabular}[t]{cccc}
+\hline
+\hline
+\textbf{<span class="math"><script type="math/tex">T</script></span>} &amp; \textbf{SW (<span class="math"><script type="math/tex">\kappa</script></span>)} &amp; \textbf{MOD-TF  (<span class="math"><script type="math/tex">\kappa</script></span>)} \ [0.5ex]
+\hline
+<span class="math"><script type="math/tex">500 \ K</script></span> &amp;  <span class="math"><script type="math/tex">46.9</script></span> &amp; <span class="math"><script type="math/tex">13.0</script></span> \ [1ex]
+<span class="math"><script type="math/tex">500 \ K</script></span> &amp;  <span class="math"><script type="math/tex">47.9^{a}</script></span> &amp; <span class="math"><script type="math/tex">13.0^{b}</script></span> \							
+\hline
+\end{tabular}</p>
+<p>% Or to place a caption below a table</p>
+<p>\end{table}%</p>
+<p>\vspace*{-15pt}</p>
+<p>\noindent
+<span class="math"><script type="math/tex">^a</script></span> Reference ~\citep{Schelling2002} \
+<span class="math"><script type="math/tex">^b</script></span> Reference ~\citep{Hickman2020} \</p>
+<p>% at 300k tc of si is 148 W /(m K)
+% at 500k -&gt; 75.2 W/(mK)</p>
+<p>\vspace*{-20pt}</p>
+<p>\noindent
+Our estimates on thermal conductivity of bulk Si agrees close to the literature studies of \textit{Schelling} and \textit{Hickman}.
+The Fig. \ref{fig:bulk} shows the temperature gradient profile of bulk Si after steady state heat flux has been established.
+From the linear region the temperature gradient of (a) SW and (b) MOD-TF model is calculated to be <span class="math"><script type="math/tex">0.033 \ K / {\angstrom}</script></span> and <span class="math"><script type="math/tex">0.118 K / {\angstrom}</script></span> respectively.<br>
+Fourier’s law on steady state heat conduction estimates the thermal conductivity to be <span class="math"><script type="math/tex">46.9 \ W m^{-1} K^{-1}</script></span>
+and <span class="math"><script type="math/tex">13.0 \ W  m^{-1} K^{-1}</script></span> for SW and MOD-TF model respectively.</p>
+<p>\vspace*{-8pt}</p>
+<p>\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/swBulk_tempGrad.png}
+\caption{SW model}
+\label{fig:sw_bulk}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.9\linewidth]{./fig/tfBulk_tempGrad.png}
+\caption{MOD-TF model}
+\label{fig:tf_bulk}
+\end{subfigure}
+\caption{Temperature profile for a <span class="math"><script type="math/tex">4 \times 4 \times 288</script></span> system at an average temperature of <span class="math"><script type="math/tex">500 \ K</script></span>. The heat source is located at <span class="math"><script type="math/tex">\frac{1}{4}L_{z}</script></span> and <span class="math"><script type="math/tex">\frac{3}{4}L_z</script></span>. We observe a strong nonlinear temperature profile near the heat source and sink. The temperature gradient to compute <span class="math"><script type="math/tex">\kappa</script></span> from Fourier’s law is therefore measured from linear fits away from heat source and sink}
+\label{fig:bulk}
+\end{figure}</p>
+<p>\noindent
+The thermal current(<span class="math"><script type="math/tex">J</script></span>) of <span class="math"><script type="math/tex">30.7 \ GW \ m^{-2}</script></span> proportional to <span class="math"><script type="math/tex">\delta \epsilon / A</script></span> (where <span class="math"><script type="math/tex">A</script></span> is the cross-sectional area of the system, i.e., <span class="math"><script type="math/tex">4.7 \ {nm}^2</script></span>) is applied across the system by adding and subtracting a constant energy of <span class="math"><script type="math/tex">\delta \epsilon = 5 \times 10^{-4} \ eV</script></span> to the heat source and heat sink regions respectively.
+The flux induced is comparable to the commonly reported values in the literature ~\citep{Schelling2004,Aubry2008}.
+We have carefully chosen the system dimensions of cross section <span class="math"><script type="math/tex">4 \times 4</script></span> unit cells and <span class="math"><script type="math/tex">L_z>1000 \ nm</script></span> to avoid finite size effects based on the studies by ~\cite{Schelling2002}</p>
+<p>\subsection{Kapitza Conductance of GB Interfaces}</p>
+<p>\vspace*{-15pt}</p>
+<p>We have estimated the Kapitza conductance of all the ten GBs using NEMD technique discussed in the previous section.
+The Table. \ref{tab:kapitzaConductance} shows the temperature drop observed at the boundary interface when an average thermal heat flux of <span class="math"><script type="math/tex">30 \ GW \ m^{-2}</script></span> is induced in the bicrystal model of GB system.</p>
+<p>\begin{table}[ht]
+\centering
+\caption{Temperature drop and Kapitza Conductance of <span class="math"><script type="math/tex"><001>$STGBs studied in this work. The average system temperature is $500 \ K</script></span>. }
+\label{tab:kapitzaConductance}
+\begin{tabular}[t]{c|ccc|ccc}
+\hline
+\hline
+&amp; \textbf{(a) SW} &amp;  &amp;  &amp; \textbf{(b) MOD-TF} &amp;  &amp;  \ [0.5ex]
+\textbf{GB} &amp; \textbf{<span class="math"><script type="math/tex">\gamma_{gb}</script></span>} &amp; <span class="math"><script type="math/tex">\Delta T</script></span> &amp; <span class="math"><script type="math/tex">\kappa</script></span> &amp; \textbf{<span class="math"><script type="math/tex">\gamma_{gb}</script></span>} &amp; <span class="math"><script type="math/tex">\Delta T</script></span> &amp; <span class="math"><script type="math/tex">\kappa</script></span> \ [0.5ex]
+\hline</p>
+<p><span class="math"><script type="math/tex">\Sigma 401	(20 \ 1 \ 0) [\theta= 5.73]</script></span> &amp;  <span class="math"><script type="math/tex">0.66</script></span> &amp; <span class="math"><script type="math/tex">2.8</script></span> &amp;  <span class="math"><script type="math/tex">10.8</script></span> &amp;  <span class="math"><script type="math/tex">0.66</script></span> &amp;  <span class="math"><script type="math/tex">8.8</script></span> &amp;  <span class="math"><script type="math/tex">3.4</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 37	 (6 \ 1 \ 0) [\theta=18.93]</script></span>   &amp;  <span class="math"><script type="math/tex">0.86</script></span> &amp; <span class="math"><script type="math/tex">9.3</script></span> &amp;  <span class="math"><script type="math/tex">3.2</script></span> &amp;  <span class="math"><script type="math/tex">0.74</script></span> &amp;  <span class="math"><script type="math/tex">8.5</script></span> &amp;  <span class="math"><script type="math/tex">3.5</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 13	 (5 \ 1 \ 0) [\theta=22.62]</script></span>   &amp;  <span class="math"><script type="math/tex">0.88</script></span> &amp; <span class="math"><script type="math/tex">8.1</script></span> &amp;  <span class="math"><script type="math/tex">3.7</script></span> &amp;  <span class="math"><script type="math/tex">0.73</script></span> &amp;  <span class="math"><script type="math/tex">4.7</script></span> &amp;  <span class="math"><script type="math/tex">6.4</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 5	   (3 \ 1 \ 0) [\theta=36.87]</script></span>     &amp;  <span class="math"><script type="math/tex">0.67</script></span> &amp; <span class="math"><script type="math/tex">12.1</script></span> &amp;  <span class="math"><script type="math/tex">2.5</script></span> &amp;  <span class="math"><script type="math/tex">0.64</script></span> &amp;  <span class="math"><script type="math/tex">11.3</script></span> &amp;  <span class="math"><script type="math/tex">2.7</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 5	   (2 \ 1 \ 0) [\theta=53.13]</script></span>     &amp;  <span class="math"><script type="math/tex">0.68</script></span> &amp; <span class="math"><script type="math/tex">9.4</script></span> &amp;  <span class="math"><script type="math/tex">3.2</script></span> &amp;  <span class="math"><script type="math/tex">0.55</script></span> &amp;  <span class="math"><script type="math/tex">6.9</script></span> &amp;  <span class="math"><script type="math/tex">4.3</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 53	 (9 \ 5 \ 0) [\theta=58.11]</script></span>   &amp;  <span class="math"><script type="math/tex">0.78</script></span> &amp; <span class="math"><script type="math/tex">7.5</script></span> &amp;  <span class="math"><script type="math/tex">4.0</script></span> &amp;  <span class="math"><script type="math/tex">0.75</script></span> &amp;  <span class="math"><script type="math/tex">12.9</script></span> &amp;  <span class="math"><script type="math/tex">2.3</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 17	 (5 \ 3 \ 0) [\theta=61.92]</script></span>   &amp;  <span class="math"><script type="math/tex">0.77</script></span> &amp; <span class="math"><script type="math/tex">6.8</script></span> &amp;  <span class="math"><script type="math/tex">4.4</script></span> &amp;  <span class="math"><script type="math/tex">0.72</script></span> &amp;  <span class="math"><script type="math/tex">8.8</script></span> &amp;  <span class="math"><script type="math/tex">3.4</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 13	 (3 \ 2 \ 0) [\theta=67.38]</script></span>   &amp;  <span class="math"><script type="math/tex">0.76</script></span> &amp; <span class="math"><script type="math/tex">9.0</script></span> &amp;  <span class="math"><script type="math/tex">3.4</script></span> &amp;  <span class="math"><script type="math/tex">0.73</script></span> &amp;  <span class="math"><script type="math/tex">7.7</script></span> &amp;  <span class="math"><script type="math/tex">3.9</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 85	 (7 \ 6 \ 0) [\theta=81.50]</script></span>   &amp;  <span class="math"><script type="math/tex">0.56</script></span> &amp; <span class="math"><script type="math/tex">3.4</script></span> &amp;  <span class="math"><script type="math/tex">8.9</script></span> &amp;  <span class="math"><script type="math/tex">0.58</script></span> &amp;  <span class="math"><script type="math/tex">2.1</script></span> &amp;  <span class="math"><script type="math/tex">14.5</script></span>  \		 [0.5ex]
+<span class="math"><script type="math/tex">\Sigma 181	(10 \ 9 \ 0) [\theta=83.97]</script></span> &amp;  <span class="math"><script type="math/tex">0.46</script></span> &amp; <span class="math"><script type="math/tex">1.7</script></span> &amp;  <span class="math"><script type="math/tex">18.0</script></span> &amp;  <span class="math"><script type="math/tex">0.49</script></span> &amp;  <span class="math"><script type="math/tex">5.7</script></span> &amp;  <span class="math"><script type="math/tex">5.2</script></span>  \		 [0.5ex]<br>
+\hline
+\hline
+\end{tabular}
+\end{table}%</p>
+<p>For SW and MOD-TF models the average thermal conductance of intermediate angles is <span class="math"><script type="math/tex">3.5 \ GW \ m^{-2} K^{-1}</script></span> and <span class="math"><script type="math/tex">3.7 \ GW \ m^{-2} K^{-1}</script></span> respectively.
+All the high energy GBs almost approaches the similar values of Kapitza resistance.
+The
+Figure… shows the temperature profiles of all the ten GBs.
+The amount of energy added and released at each MD time step was determined to provide a thermal current density of J=30 GW/m2 in each example.
+The temperature discontinuity for the Σ401(2010)[θ=5.73] boundary is larger than that for either the Σ85(760)[θ=81.50] or the Σ181(1090)[θ=83.97] boundaries, as seen in Fig. 2. From Fig…, it is also found that the Σ401(2010)[θ=5.73] boundary has the lowest Kapitza conductance and it is matched with the temperature profile trend as mentioned earlier. Eq. 1 is used to get the value of σk from the computed temperature discontinuity ΔT and the thermal current density J which is given in methodology section.</p>
+<p>\subsection{GB Energy and Kapitza Conductance}</p>
+<p>\vspace*{-15pt}
+It is possible that the electrode configurations could involve several pores ~\citep{harris2010mesopores}. Many researchers have analysed the hollow shell particle ~\citep{hu2017chemo,liu2014stress} and the electrode configuration with voids~\citep{hlushkou2018influence,guo2017analytical,ji2017computational}. Apart from voids entrapped between the particles, there may be pores within the particle itself which will change entire stress distribution. Hollow shell particle has shown several advantages over the solid particle~\citep{liu2016stress}. Here, an attempt has been made to examine how complex stress fields interact and affect the electrochemical response. To this end an electrode  particle with multiple evenly distributed holes as shown in Fig. \ref{fig:19} is considered.</p>
+
+  </body>
+</html>
