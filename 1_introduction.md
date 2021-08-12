@@ -1,6 +1,4 @@
-## I. INTRODUCTION
-
-\vspace*{-18pt}
+## I. Introduction
 
 The quest to design and develop new functional and structural materials for various technological applications lies at the heart of materials discovery that motivates the researchers and engineers to study more about the properties of material interfaces.
 Most of the engineering materials are polycrystalline in nature, and the interface between the two grains with relative misorientation is called the grain boundary(GB) interface.

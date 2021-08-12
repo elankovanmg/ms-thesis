@@ -5,11 +5,12 @@ sed -i "5 i <link rel=\"stylesheet\" href=\"others/myTemplate.css\">" index.md.h
 
 cp index.md.html index.html
 
-git init main
+##git init main
 git add .
 git commit -m "New commit"
 ## >>chmod 755 * // if required;
-git remote add origin https://github.com/elankovanmg/ms-thesis.git
-git remote -v
+##git remote add origin https://github.com/elankovanmg/ms-thesis.git
+##git remote -v
+git push -u origin master
 
 
