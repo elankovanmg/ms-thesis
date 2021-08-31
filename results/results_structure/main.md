@@ -1,9 +1,13 @@
+# RESULTS-I
+
+-------------------------------------------------------------------------------------------
+
 ## GB Energy vs. Tilt Angle
 
 ![](/home/elangovan/Dropbox/MSproject/fig/gbe_plot.png)\
 Grain boundary energy of the 10 Symmetrical tilt<001> grain boundaries studied using (a) Optimised Tersoff(MOD-TF) potential and (b) Stillinger Weber potential is ploted as a function of misorientation angle $\theta$.
 
-## Atomic Structures of GB Interface 
+## Atomic Structures of GB Interface
 
 | Sl. No | GB Angle                              | Structure (a) SW                               | Structure (b) MOF-TF                           | Type |
 |:------:|:-------------------------------------:|:----------------------------------------------:|:----------------------------------------------:|:----:|
