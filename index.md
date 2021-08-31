@@ -20,11 +20,9 @@ Department of Mechanical Engineering(ME) & Department of Physics(PY)
 <a href="#toc"> <img src="others/list.png" width="20" height="20"></a>
 </nav>
 
-SOME CHANGES MADE TO THIS FILE
-
 <iframe frameborder="0"
 src="0_abstract.md.html"
-height="300"
+height="490"
 width="100%" >
 </iframe>
 
